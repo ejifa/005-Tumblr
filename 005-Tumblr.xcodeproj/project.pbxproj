@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8952EB911AA810E800F09225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952EB901AA810E800F09225 /* AppDelegate.swift */; };
-		8952EB931AA810E800F09225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952EB921AA810E800F09225 /* ViewController.swift */; };
-		8952EB961AA810E800F09225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8952EB941AA810E800F09225 /* Main.storyboard */; };
 		8952EB981AA810E800F09225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8952EB971AA810E800F09225 /* Images.xcassets */; };
-		8952EB9B1AA810E800F09225 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8952EB991AA810E800F09225 /* LaunchScreen.xib */; };
 		8952EBA71AA810E800F09225 /* _05_TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952EBA61AA810E800F09225 /* _05_TumblrTests.swift */; };
+		8952EBB11AA8113300F09225 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952EBB01AA8113300F09225 /* TabBarViewController.swift */; };
+		8990EDFE1AAB79570032E309 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990EDFD1AAB79570032E309 /* HomeViewController.swift */; };
+		8990EE001AAB7A1F0032E309 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990EDFF1AAB7A1F0032E309 /* SearchViewController.swift */; };
+		89A580E41AAB860D00A2BBA4 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A580E31AAB860D00A2BBA4 /* ComposeViewController.swift */; };
+		89A580E81AAB868700A2BBA4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A580E71AAB868700A2BBA4 /* AccountViewController.swift */; };
+		89A580EA1AAB869900A2BBA4 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A580E91AAB869900A2BBA4 /* TrendingViewController.swift */; };
+		89A580EC1AABB60900A2BBA4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A580EB1AABB60900A2BBA4 /* Common.swift */; };
+		89A580EF1AABBDFC00A2BBA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A580ED1AABBDFC00A2BBA4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		8952EB8B1AA810E800F09225 /* 005-Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "005-Tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8952EB8F1AA810E800F09225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8952EB901AA810E800F09225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8952EB921AA810E800F09225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8952EB951AA810E800F09225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8952EB971AA810E800F09225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8952EB9A1AA810E800F09225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8952EBA01AA810E800F09225 /* 005-TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "005-TumblrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8952EBA51AA810E800F09225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8952EBA61AA810E800F09225 /* _05_TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _05_TumblrTests.swift; sourceTree = "<group>"; };
+		8952EBB01AA8113300F09225 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ../TabBarViewController.swift; sourceTree = "<group>"; };
+		8990EDFD1AAB79570032E309 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8990EDFF1AAB7A1F0032E309 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		89A580E31AAB860D00A2BBA4 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		89A580E71AAB868700A2BBA4 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		89A580E91AAB869900A2BBA4 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendingViewController.swift; path = ../TrendingViewController.swift; sourceTree = "<group>"; };
+		89A580EB1AABB60900A2BBA4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		89A580EE1AABBDFC00A2BBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,11 @@
 		8952EB8D1AA810E800F09225 /* 005-Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				8952EBB21AA8113D00F09225 /* VCs */,
 				8952EB901AA810E800F09225 /* AppDelegate.swift */,
-				8952EB921AA810E800F09225 /* ViewController.swift */,
-				8952EB941AA810E800F09225 /* Main.storyboard */,
+				89A580ED1AABBDFC00A2BBA4 /* Main.storyboard */,
+				89A580EB1AABB60900A2BBA4 /* Common.swift */,
 				8952EB971AA810E800F09225 /* Images.xcassets */,
-				8952EB991AA810E800F09225 /* LaunchScreen.xib */,
 				8952EB8E1AA810E800F09225 /* Supporting Files */,
 			);
 			path = "005-Tumblr";
@@ -110,6 +120,19 @@
 				8952EBA51AA810E800F09225 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8952EBB21AA8113D00F09225 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8952EBB01AA8113300F09225 /* TabBarViewController.swift */,
+				8990EDFD1AAB79570032E309 /* HomeViewController.swift */,
+				8990EDFF1AAB7A1F0032E309 /* SearchViewController.swift */,
+				89A580E31AAB860D00A2BBA4 /* ComposeViewController.swift */,
+				89A580E71AAB868700A2BBA4 /* AccountViewController.swift */,
+				89A580E91AAB869900A2BBA4 /* TrendingViewController.swift */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8952EB961AA810E800F09225 /* Main.storyboard in Resources */,
-				8952EB9B1AA810E800F09225 /* LaunchScreen.xib in Resources */,
 				8952EB981AA810E800F09225 /* Images.xcassets in Resources */,
+				89A580EF1AABBDFC00A2BBA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8952EB931AA810E800F09225 /* ViewController.swift in Sources */,
+				89A580EC1AABB60900A2BBA4 /* Common.swift in Sources */,
+				89A580EA1AAB869900A2BBA4 /* TrendingViewController.swift in Sources */,
+				89A580E41AAB860D00A2BBA4 /* ComposeViewController.swift in Sources */,
+				8952EBB11AA8113300F09225 /* TabBarViewController.swift in Sources */,
+				89A580E81AAB868700A2BBA4 /* AccountViewController.swift in Sources */,
 				8952EB911AA810E800F09225 /* AppDelegate.swift in Sources */,
+				8990EE001AAB7A1F0032E309 /* SearchViewController.swift in Sources */,
+				8990EDFE1AAB79570032E309 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +264,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8952EB941AA810E800F09225 /* Main.storyboard */ = {
+		89A580ED1AABBDFC00A2BBA4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8952EB951AA810E800F09225 /* Base */,
+				89A580EE1AABBDFC00A2BBA4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8952EB991AA810E800F09225 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8952EB9A1AA810E800F09225 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "005-Tumblr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "005-Tumblr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +427,7 @@
 				8952EBAC1AA810E800F09225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8952EBAD1AA810E800F09225 /* Build configuration list for PBXNativeTarget "005-TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +436,7 @@
 				8952EBAF1AA810E800F09225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
