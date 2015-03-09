@@ -1,5 +1,3 @@
-# 005-Tumblr
-
 # Description
 Fifth Week Assignemnt for CodePath's iOS for Designers Course
 
